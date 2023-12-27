@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{D73A3C22-4E22-4F8D-9CAF-45B77AEAB20E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{C8AEED60-C2AA-451A-9101-15394008BED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B26FCF8C-404E-4EC5-801D-A46BEB97FA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{01CD2166-2C92-40AD-BA8D-3C45D6941EEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D73A3C22-4E22-4F8D-9CAF-45B77AEAB20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73A3C22-4E22-4F8D-9CAF-45B77AEAB20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73A3C22-4E22-4F8D-9CAF-45B77AEAB20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73A3C22-4E22-4F8D-9CAF-45B77AEAB20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CD2166-2C92-40AD-BA8D-3C45D6941EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CD2166-2C92-40AD-BA8D-3C45D6941EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CD2166-2C92-40AD-BA8D-3C45D6941EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CD2166-2C92-40AD-BA8D-3C45D6941EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D73A3C22-4E22-4F8D-9CAF-45B77AEAB20E} = {C8AEED60-C2AA-451A-9101-15394008BED8}
+		{01CD2166-2C92-40AD-BA8D-3C45D6941EEA} = {B26FCF8C-404E-4EC5-801D-A46BEB97FA4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C8E8832-F53E-4EB0-B46A-31DFDD2DCE3A}
+	EndGlobalSection
+EndGlobal
